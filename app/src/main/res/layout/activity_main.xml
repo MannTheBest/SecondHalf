@@ -14,7 +14,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginBottom="29dp"
         android:background="#2A3A3503"
-        android:text="Type in the name of a city:"
+        android:text="Your city name:"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/edtCity"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="9dp"
         android:ems="10"
-        android:hint="Type City name here"
+        android:hint="City"
         android:inputType="text"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,9 +43,11 @@
         android:layout_marginStart="1dp"
         android:layout_marginTop="56dp"
         android:layout_marginEnd="1dp"
-        android:background="#A52700"
-        android:text="GET FORCAST"
+        android:backgroundTint="@color/black"
+        android:background="#635018"
+        android:text="Submit"
         android:textAllCaps="true"
+        android:textColorHighlight="#683434"
         android:textColorLink="#611932"
         app:iconTint="@color/design_default_color_error"
         app:layout_constraintEnd_toEndOf="parent"
@@ -113,6 +115,6 @@
         android:layout_marginBottom="164dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@android:drawable/stat_notify_error" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
